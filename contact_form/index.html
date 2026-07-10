@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Contact Form</title>
+    <!-- Linked external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- 1. Div with a class of form-container -->
+    <div class="form-container">
+        
+        <!-- 2. Form element within the container -->
+        <form>
+            
+            <!-- 3. H2 element with some text -->
+            <h2>Contact Us</h2>
+
+            <!-- 11 & 14. Non-empty label for the name field -->
+            <label for="name">Full Name</label>
+            <!-- 4 & 5. Text input with type, id, name, and required attributes -->
+            <input type="text" id="name" name="name" required>
+
+            <!-- 12 & 14. Non-empty label for the email field -->
+            <label for="email">Email Address</label>
+            <!-- 6 & 7. Email input with type, id, name, and required attributes -->
+            <input type="email" id="email" name="email" required>
+
+            <!-- 13 & 14. Non-empty label for the message field -->
+            <label for="message">Message</label>
+            <!-- 8. Textarea with id, name, and required attribute -->
+            <textarea id="message" name="message" required></textarea>
+
+            <!-- 9 & 10. Button element with type submit and text "Submit" -->
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
