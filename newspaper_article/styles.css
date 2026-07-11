@@ -1,0 +1,114 @@
+/* 1. Root HTML selector setting base scaling value */
+html {
+    font-size: 24px;
+}
+
+/* Old money heritage luxury backdrop styling */
+body {
+    background-color: #f6f5f0; /* Soft silk/bone ivory canvas */
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 3, 4. Newspaper base configurations */
+.newspaper {
+    max-width: 750px;
+    background-color: #ffffff;
+    padding: 50px;
+    box-shadow: 0 20px 50px rgba(27, 26, 23, 0.05); /* Soft, subtle deep shadow */
+    border: 1px solid #e3e1d8;
+    
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #1c1b18; /* Rich off-black charcoal text */
+}
+
+/* 17, 18, 19. Newspaper branding header configurations */
+.name {
+    font-size: 2rem; /* 2x root font-size */
+    font-family: 'Times New Roman', serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 6px; /* Elegant, wide tracked-out lettering */
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+/* Date line styling styling rules */
+.date {
+    text-align: center;
+    color: #79766e;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Sharp, intentional layout divider lines */
+.header-divider {
+    border: none;
+    border-top: 1px solid #1c1b18;
+    border-bottom: 1px solid #1c1b18;
+    height: 3px;
+    margin-bottom: 40px;
+}
+
+/* 21, 22. Main article headline configuration rules */
+.headline {
+    font-size: 2em; /* 2x parent font-size */
+    font-weight: bold;
+    font-family: 'Times New Roman', serif; /* Sophisticated serif choice for main headers */
+    color: #1c1b18;
+    line-height: 1.15;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+    text-align: left;
+}
+
+/* 23, 24, 25. Sub-headline configuration rules */
+.sub-headline {
+    font-weight: 100;
+    font-size: 1.5em; /* 1.5x parent font-size */
+    font-style: italic;
+    font-family: 'Times New Roman', serif;
+    color: #5c5952;
+    line-height: 1.35;
+    margin-bottom: 30px;
+}
+
+/* 20, 26. Author element configuration rules */
+.author {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1c1b18;
+    margin-bottom: 30px;
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #e3e1d8;
+    padding-bottom: 15px;
+}
+
+/* 27, 28. Paragraph container block level properties */
+.text {
+    text-indent: 20px;
+    line-height: 2em; /* 2x parent font-size */
+    margin-bottom: 0;
+    text-align: justify;
+    color: #2e2c27;
+}
+
+/* 29, 30. Drop cap styling utilizing the first-letter pseudo-element selector */
+.text::first-letter {
+    font-weight: bold;
+    font-size: 2em; /* 2x parent font-size */
+    font-family: 'Times New Roman', serif;
+    float: left;
+    line-height: 0.85;
+    padding-right: 10px;
+    margin-top: 4px;
+    color: #1c1b18;
+}
